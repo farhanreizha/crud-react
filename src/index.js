@@ -10,7 +10,7 @@ import Contact from "./components/pages/Contact";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router basename={window.location.App || ""}>
+    <Router>
       {/* <RadioButton /> */}
       <Routes>
         <Route exact path="/" components={App} />

@@ -7,10 +7,10 @@ const Formulir = ({
   alamat,
   handleChange,
   handleSubmit,
-  id
+  id,
 }) => {
   return (
-    <Container className="py-4">
+    <Container>
       <Form onSubmit={handleSubmit}>
         <h1>{id ? "Edit Pasien" : "Tambah Pasien"}</h1>
         <hr />

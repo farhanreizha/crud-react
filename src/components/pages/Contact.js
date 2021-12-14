@@ -5,13 +5,16 @@ import NavbarComponen from '../NavbarComponen'
 const Contact = () => {
   return (
     <Container
-      fluid="true"
-      className="py-md-5 px-md-5 bg-secondary text-white"
-      style={{ height: "50vh" }}
+      fluid
+      className=" bg-secondary text-white"
+      style={{ height: "100vh" }}
     >
       <NavbarComponen />
-      <h1>Contact</h1>
-      <h3>Coming Soon</h3>
+
+      <div className="px-4 px-md-5 mx-md-4 content">
+        <h1>Contact</h1>
+        <h3>Coming Soon</h3>
+      </div>
     </Container>
   );
 }

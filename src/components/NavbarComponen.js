@@ -5,7 +5,7 @@ import { LinkContainer } from "react-router-bootstrap";
 
 const NavbarComponen = () => {
   return (
-    <Container fluid={true} className="px-md-5 text-white justify-item-center">
+    <Container fluid className="pt-4 px-0 pt-md-5 pb-md-3 px-md-5  text-white justify-item-center">
       <Nav defaultActiveKey="/" as="ul">
         <LinkContainer to="/" className="text-white">
           <Navbar.Brand className="">

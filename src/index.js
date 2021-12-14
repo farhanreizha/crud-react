@@ -13,7 +13,7 @@ ReactDOM.render(
     <Router>
       {/* <RadioButton /> */}
       <Routes>
-        <Route exact path="/" components={App} />
+        <Route exact path="/" element={<App />} />
         <Route path="/About" element={<About />} />
         <Route path="/Contact" element={<Contact />} />
       </Routes>

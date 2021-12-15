@@ -2,7 +2,7 @@
   "name": "challenge",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://farhanreizha.github.io/",
+  "homepage": "https://farhanreizha.github.io/crud-react",
   "dependencies": {
     "@babel/helper-compilation-targets": "^7.16.3",
     "@testing-library/jest-dom": "^5.11.4",
